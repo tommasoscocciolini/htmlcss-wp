@@ -25,6 +25,11 @@
   display: table;
 }
 
+#logo{
+  border-right: 0.5px solid lightgrey;
+  padding-right: 1%;
+}
+
 /*UTILITIES*/
 .col-100{
   width: 100%;
@@ -69,6 +74,7 @@ ul.nav{
 li a{
   color: grey;
   text-decoration: none;
+  /*text-transform: uppercase*/
 }
 
 .big-pic{
@@ -78,12 +84,20 @@ li a{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 350px;
-  padding-left: 80px;
+  /* padding-top: 350px;
+  padding-left: 80px; */
   margin-bottom: 5px;
   color: white;
-  filter: brightness(90%);
+  /* filter: brightness(90%); */
 }
+
+div.banner-text{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 350px;
+  padding-left: 80px;
+  height: 600px;
+  border-radius: 2%;
+  }
 
 div.col-100.mb-1{
   margin-bottom: 40px;
@@ -93,25 +107,13 @@ div.col-60 img, div.col-20 img{
   border-radius: 8px;
   width: 100%;
   height: 200px;
-  filter: brightness(90%);
   object-fit: cover;
+  filter: brightness(90%);
 }
 
 .did-1{
   margin-top: 10px;
 }
-
-/* h1.s-imp{
-  padding-top:400px;
-  padding-left: 50px;
-  margin-bottom: 5px;
-  color: white;
-} */
-
-/* .big-pic h4{
-  padding-left: 50px;
-  color: white;
-} */
 
 span.subtitle{
   color: grey;
